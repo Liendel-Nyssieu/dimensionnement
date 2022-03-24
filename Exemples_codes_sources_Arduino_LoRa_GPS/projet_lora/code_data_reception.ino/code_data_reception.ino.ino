@@ -9,7 +9,7 @@
 #include <arduinoUtils.h>
 
 // Include the SX1272 and SPI library:
-#include "sx1272_INSAT.h"
+#include <sx1272_INSAT.h>
 #include <SPI.h>
 
 #define freq_centrale CH_868v1
