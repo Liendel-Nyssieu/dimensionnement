@@ -144,7 +144,7 @@ void loop()                     // run over and over again
     //if (GPS.fix) {
       Serial.print("Location: ");
       Serial.print(GPS.latitude, 4); Serial.print(GPS.lat);
-      Serial.print(", "); 
+      Serial.print(", "); Adafruit_GPS GPS(&mySerial);
       Serial.print(GPS.longitude, 4); Serial.println(GPS.lon);
       Serial.print("Location (in degrees, works with Google Maps): ");
       Serial.print(GPS.latitudeDegrees, 4);
