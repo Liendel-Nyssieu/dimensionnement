@@ -9,6 +9,7 @@
 #include <arduinoUtils.h>
 #include <Adafruit_GPS.h>
 #include <SoftwareSerial.h>
+#include <SD.h>
 
 // Include the SX1272 and SPI library:
 #include "sx1272_INSAT.h"
@@ -247,7 +248,6 @@ void loop()
     Serial.print(", "); 
     Serial.println(GPS.longitudeDegrees, 4);
   }
-  
 
  // }
 }
